@@ -1,0 +1,9 @@
+[[asset]]
+match = "figures/*.png"
+kind = "figure"
+method = "crafted"
+source = "analyse.py and tables/*.csv"
+licence = "own"
+credit = "Gabriel Penman"
+retrieved = "2026-11-07"
+pipeline = "Matplotlib 3.10.8, aggregate counts and day-bootstrap estimates, 180 dpi PNG, no prompt-level content"

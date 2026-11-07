@@ -1,0 +1,11 @@
+{
+  "workflow/defaults/access": ["correct.delivery.routine-task-autonomy", "correct.delivery.reviewable-deliverable-access", "correct.delivery.context-continuity"],
+  "delivery/progress": ["correct.delivery.verify-before-claiming-done", "correct.delivery.operator-report-clarity", "correct.delivery.documentation-truth"],
+  "wrong-target": ["correct.delivery.requirements-fidelity", "correct.delivery.destructive-change-scope"],
+  "layout/spacing": ["correct.ui.spacing", "correct.ui.shared-layout"],
+  "colour": ["correct.ui.on-system"],
+  "copy": ["correct.copy.voice", "correct.copy.house-glyphs", "correct.copy.reader-context"],
+  "motion": ["correct.motion.rhythm", "correct.motion.frame-pacing", "correct.render.frame-integrity", "correct.video.smoothness"],
+  "staffing": ["correct.staffing.claude-quota", "correct.staffing.job-shape"],
+  "other": []
+}

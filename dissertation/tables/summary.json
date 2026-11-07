@@ -1,0 +1,140 @@
+{
+  "cutoff": "2026-11-07T13:58:00+00:00",
+  "corpus_prompts": 909,
+  "corrections": 305,
+  "first_prompt": "2026-06-20T14:28:35.936000+00:00",
+  "last_prompt": "2026-11-07T13:53:49.780000+00:00",
+  "active_hours": 59.99421111111111,
+  "active_days": 37,
+  "zero_exposure_days": 3,
+  "bootstrap_draws": 10000,
+  "primary_model": "gpt-6-luna",
+  "independent_model": "gpt-6.1-sol",
+  "seed": 20261018,
+  "gate_revision": "7900f840b6dcf7a63750c2b1d9cac4e7cefb4839",
+  "gate_count": 120,
+  "mapped_gate_count": 20,
+  "gate_result_events": 1373,
+  "malformed_result_rows": 0,
+  "corpus_sha256": "26c3e49e27b2f9395a669aa89b6a6af819a8a6ebde917c8d2748ebff7abe8ccd",
+  "label_sample_sha256": "0f638b27d27283b525ce15ab4ebc483b51ba254a9a98e77953581e070a4c1040",
+  "global_all": {
+    "before_corrections": 100,
+    "before_hours": 22.56304777777778,
+    "before_days": 19,
+    "before_rate": 4.4320253622158905,
+    "before_lo": 3.4939780987161426,
+    "before_hi": 5.452776634845329,
+    "after_corrections": 205,
+    "after_hours": 37.43116333333333,
+    "after_days": 21,
+    "after_rate": 5.476719977266715,
+    "after_lo": 4.638091626121267,
+    "after_hi": 6.183651886567805,
+    "change": 1.0446946150508243,
+    "change_lo": -0.26812102243257646,
+    "change_hi": 2.211094398285702,
+    "rate_ratio": 1.2357149451257892,
+    "valid_bootstrap_draws": 10000
+  },
+  "global_mapped": {
+    "before_corrections": 67,
+    "before_hours": 22.56304777777778,
+    "before_days": 19,
+    "before_rate": 2.9694569926846466,
+    "before_lo": 2.2180838204626836,
+    "before_hi": 3.7767814142563214,
+    "after_corrections": 156,
+    "after_hours": 37.43116333333333,
+    "after_days": 21,
+    "after_rate": 4.167650324163939,
+    "after_lo": 3.374044028793549,
+    "after_hi": 4.918659860003388,
+    "change": 1.1981933314792927,
+    "change_lo": 0.05566629138651203,
+    "change_hi": 2.25896620345697,
+    "rate_ratio": 1.403505871420627,
+    "valid_bootstrap_draws": 10000
+  },
+  "global_control": {
+    "before_corrections": 33,
+    "before_hours": 22.56304777777778,
+    "before_days": 19,
+    "before_rate": 1.4625683695312437,
+    "before_lo": 0.9964465958892951,
+    "before_hi": 2.111448946384318,
+    "after_corrections": 49,
+    "after_hours": 37.43116333333333,
+    "after_days": 21,
+    "after_rate": 1.3090696531027757,
+    "after_lo": 0.8754597644295349,
+    "after_hi": 1.7822056492530742,
+    "change": -0.15349871642846802,
+    "change_lo": -0.9277245854044353,
+    "change_hi": 0.5278639136264919,
+    "rate_ratio": 0.8950485190120276,
+    "valid_bootstrap_draws": 10000
+  },
+  "reliability": [
+    {
+      "measure": "correction",
+      "n": 137,
+      "agreement": 0.8905109489051095,
+      "kappa": 0.7379160821323811
+    },
+    {
+      "measure": "class",
+      "n": 137,
+      "agreement": 0.7445255474452555,
+      "kappa": 0.6451039893420176
+    },
+    {
+      "measure": "joint correction/class",
+      "n": 137,
+      "agreement": 0.6715328467153284,
+      "kappa": 0.5956846799580273
+    },
+    {
+      "measure": "class among joint corrections",
+      "n": 33,
+      "agreement": 0.7878787878787878,
+      "kappa": 0.7392776523702032
+    },
+    {
+      "measure": "eligibility on retained sample",
+      "n": 137,
+      "agreement": 1.0,
+      "kappa": null
+    }
+  ],
+  "did": [
+    {
+      "analysis": "all mapped classes vs other",
+      "did": 1.3516920479077608,
+      "lo": -0.06298026090033321,
+      "hi": 2.7211527662900337,
+      "valid_bootstrap_draws": 10000
+    },
+    {
+      "analysis": "creation-day mapped classes vs other",
+      "did": 1.2800383119150036,
+      "lo": -0.08388950278320403,
+      "hi": 2.605935477255829,
+      "valid_bootstrap_draws": 10000
+    },
+    {
+      "analysis": "b only, all mapped classes vs other",
+      "did": 1.3534875711285075,
+      "lo": 0.010194018033613259,
+      "hi": 2.66992229425826,
+      "valid_bootstrap_draws": 10000
+    },
+    {
+      "analysis": "14 days either side, all mapped classes vs other",
+      "did": 0.8785885662515587,
+      "lo": -0.754227230846622,
+      "hi": 2.3371664731720307,
+      "valid_bootstrap_draws": 10000
+    }
+  ]
+}
