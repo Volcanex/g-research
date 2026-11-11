@@ -24,6 +24,7 @@ def main():
     parser.add_argument('picks', nargs='+')
     parser.add_argument('--papers', help='additional known papers.toml')
     parser.add_argument('--tables', default='', help='comma separated neighbours tables')
+    parser.add_argument('--hold-known', action='store_true', help='shelve finds already in the bibliography, which lists them without holding them')
     args = parser.parse_args()
     titles, urls = known()
     if args.papers:
@@ -60,7 +61,7 @@ def main():
                     full = re.sub(r'\s*(-->|\([^)]*\))\s*', ' ', hit[0]).strip()
                     title, url, year, by = (full if len(full) > len(title) else title), hit[1], hit[2], by or hit[3]
             n = norm(title)
-            if urlkey(url) in urls or any(n == o or (len(n) > 24 and difflib.SequenceMatcher(None, n, o).ratio() > 0.92) for o in ours):
+            if not args.hold_known and (urlkey(url) in urls or any(n == o or (len(n) > 24 and difflib.SequenceMatcher(None, n, o).ratio() > 0.92) for o in ours)):
                 print('already known:', title, file=sys.stderr)
                 continue
             # the same address from another picks file is the same find under another title.
