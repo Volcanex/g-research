@@ -168,6 +168,8 @@ def right(path, title, reach=8000):
     raw = open(path, errors='replace').read(reach)
     if re.search(r'curriculum\s+vit', unicodedata.normalize('NFKC', raw[:1500]), re.I):
         return False  # an author's CV lists the title and is not the paper
+    # arXiv prints its stamp up the margin, and text extraction can drop it between a title and its subtitle
+    raw = re.sub(r'arXiv:\d{4}\.\d{4,5}(v\d+)?\s*\[[^\]]+\]\s*\d{1,2}\s+\w{3}\s+\d{4}', ' ', raw)
     want, head = flat(title), flat(raw)
     if not want or ''.join(want) in ''.join(head):
         return True

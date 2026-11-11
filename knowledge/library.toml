@@ -8176,11 +8176,11 @@ depth = "none"
 [[held]]
 paper = "s.si2024-llms-generate"
 status = "ok"
-kind = "html"
-via = "direct"
-sha256 = "d9a93816de8aca47c8e8c487ed5b86de0e3192153c7fe633192add9b182c21ca"
-words = 711
-bytes = 42414
+kind = "pdf"
+via = "browser"
+sha256 = "fc1d14afd403c19bebb1c8ede9e74ed9aa3de0ee3a1f8656a6dcd6c7da90f79c"
+words = 35774
+bytes = 942188
 depth = "none"
 
 [[held]]
