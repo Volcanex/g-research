@@ -1,0 +1,15 @@
+# One thesis part per line. The first matching title wins, then the note.
+self-harness | meta.harness|self.harness|harness evolution|harness engineering.*evol|agentic harness
+design-gates | design.gate|design review|design critique|novelty evaluat|creative.*evaluat|idea.*evaluat
+learned-rules | learned.rule|learn.*rule|rule.*learn|reflexion|verbal reinforcement|self.refine|experien.*learn|memory.*agent
+small-models | small.language.model|small.model|distill|student.model|model.cascad|model.rout|frugal|budget.*model
+swarms | swarm|multi.agent|agent.*collaborat|collective intelligence|hivemind|agent.*debate
+judges | llm.as.a.judge|language.model.*judg|judge.*model|judging|validator|reward.model|evaluat.*bias
+eval-method | benchmark|evaluat.*method|evaluat.*protocol|data.contaminat|statistical|replicab|reproducib|capture.recapture|saturation
+verify | verif|proof|formal.method|test.time.*check|self.correct|feedback.loop|unit.test|test.driven
+optimisers | optimiz|optimis|dspy|gepa|prompt.evolution|prompt.search|program.search|alphaevolve|funsearch
+gates | quality.gate|gating|guardrail|policy.as.code|enforcement|specification.gaming|reward.hack|goodhart
+charters | charter|constitution|governance|specification|requirements|contract
+levels | level.*making|abstraction|meta.program|generat.*pipeline|hierarch|development.level|software.factor
+harness | harness|coding.agent|agent.*scaffold|agent.*infrastructure|agent.*engineer|agent.*environment
+general | artificial.intelligence|language.model|software.engineer|machine.learn|research.method
