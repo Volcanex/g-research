@@ -63,7 +63,7 @@ Three to six sentences: what these papers together say about the thesis part und
 '''
 
 
-def briefs(part, out, records, questions=None):
+def briefs(part, out, records, questions=None, unread=False):
     asked = json.load(open(questions)) if questions else {}
     parts = [line.split('|', 1)[0].strip() for line in (HERE / 'terms.txt').read_text().splitlines() if '|' in line and not line.startswith('#')]
     if part not in parts:
@@ -81,7 +81,7 @@ def briefs(part, out, records, questions=None):
             continue
         meta = json.load(open(os.path.join(d, 'meta.json')))
         words = meta.get('words', 0)
-        if meta.get('status') not in ('ok', 'held'):
+        if meta.get('status') not in ('ok', 'held') or unread and meta.get('depth') == 'read':
             continue
         if meta.get('status') == 'ok' and not whole(rec, meta, d):
             print('full text not held, left out:', pid)
@@ -156,9 +156,10 @@ if __name__ == '__main__':
     brief.add_argument('--records', default=','.join(str(HERE / f) for f in ('papers.toml', 'shelf.toml') if (HERE / f).exists()))
     checker = commands.add_parser('check')
     brief.add_argument('--questions', help='JSON of id to [[who asked, question], ...], added under each paper')
+    brief.add_argument('--unread', action='store_true', help='leave out sources a checked full reading already covers')
     checker.add_argument('out_dir')
     checker.add_argument('--mark', action='store_true')
     args = parser.parse_args()
     if args.mode == 'briefs':
-        sys.exit(briefs(args.part, args.out_dir, args.records, args.questions))
+        sys.exit(briefs(args.part, args.out_dir, args.records, args.questions, args.unread))
     sys.exit(check(args.out_dir, args.mark))

@@ -43,7 +43,7 @@ via = "direct"
 sha256 = "9929fee697976e1983328c0e288e9e9943f01c99b2211fe27de130e03ec310d6"
 words = 6563
 bytes = 342594
-depth = "none"
+depth = "read"
 
 [[held]]
 paper = "s.lindenbauer2025-complexity-trap"
@@ -63,7 +63,7 @@ via = "direct"
 sha256 = "3fac74f3152a8ec2cd6d28e98a6e5cff323fea9c39e7328bdb38bfb0b3003b17"
 words = 9597
 bytes = 696336
-depth = "none"
+depth = "read"
 
 [[held]]
 paper = "s.arjmandi2026-harness-model"
@@ -133,7 +133,7 @@ via = "direct"
 sha256 = "cec45f6f1effb884bfdc3bbbe20ecffeb6e975176f7b262cae264b6cfbd8799d"
 words = 3764
 bytes = 218122
-depth = "none"
+depth = "read"
 
 [[held]]
 paper = "s.truong2026-correct-code"
@@ -163,7 +163,7 @@ via = "direct"
 sha256 = "eb38452b5d357499ff3a2f7aa8bd7b8c1c1409dbafadaff3624071b2f7b1b302"
 words = 10443
 bytes = 9572735
-depth = "none"
+depth = "read"
 
 [[held]]
 paper = "s.yang2024-agent-agent"
@@ -253,7 +253,7 @@ via = "direct"
 sha256 = "e945b406632dcd8246563e5a3fca907534551732a6e49cad165c7690cde3f4ae"
 words = 10920
 bytes = 2561766
-depth = "none"
+depth = "read"
 
 [[held]]
 paper = "s.han2026-skills-bench"
@@ -263,7 +263,7 @@ via = "direct"
 sha256 = "61120258c599e3b70c5d0151ee63ad2f96f51757fc6bf38f7f4d560edb460f1c"
 words = 9210
 bytes = 1765509
-depth = "none"
+depth = "read"
 
 [[held]]
 paper = "s.li2026-skillsbench-benchmarking"
@@ -273,7 +273,7 @@ via = "direct"
 sha256 = "e987ebc3f0084a1ffc8acbca58259e33120b95fcef3876abfad060e169cf210b"
 words = 18318
 bytes = 1769852
-depth = "none"
+depth = "read"
 
 [[held]]
 paper = "s.khatri2026-context-files"
@@ -293,7 +293,7 @@ via = "direct"
 sha256 = "07b534ad479b09208b8a9099422c9799c3e0a8069311dba40cc24556f19c29f6"
 words = 11638
 bytes = 751246
-depth = "none"
+depth = "read"
 
 [[held]]
 paper = "s.kang2026-harness-scaling"
@@ -383,7 +383,7 @@ via = "direct"
 sha256 = "dd579ec6683b1ef3c62a90ee92da82fcae54097928cd52442726876e40f1ac1f"
 words = 22254
 bytes = 3567257
-depth = "none"
+depth = "read"
 
 [[held]]
 paper = "s.pan2026-natural-language"
@@ -423,7 +423,7 @@ via = "direct"
 sha256 = "a65805f7a4cc6a522055a3f696b72a787b3deb504d7d855f60b54afc5b696fc7"
 words = 13558
 bytes = 465544
-depth = "none"
+depth = "read"
 
 [[held]]
 paper = "s.lou2026-autoharness-improving"
@@ -673,7 +673,7 @@ via = "direct"
 sha256 = "ab3a5139bac83f192ad67529368d77b84b0d807e95a8e4fd0daa8d45fd046bec"
 words = 40467
 bytes = 2975112
-depth = "none"
+depth = "read"
 
 [[held]]
 paper = "s.zhang2025-agentic-context"
@@ -783,7 +783,7 @@ via = "direct"
 sha256 = "7bd8e1c6345c2ff8d5a93674a8a88fcfc70ab6f657f946c82a2961f449e01535"
 words = 11265
 bytes = 1271380
-depth = "none"
+depth = "read"
 
 [[held]]
 paper = "s.dai2025-lita-light"
@@ -1025,7 +1025,7 @@ via = "direct"
 sha256 = "bbf89da95d94dd6ad9f1de2e05a48e0579d1b9f60042083c1949561485b71c7f"
 words = 22485
 bytes = 3023070
-depth = "none"
+depth = "read"
 
 [[held]]
 paper = "s.kamoi2024-when-llms"
@@ -1085,7 +1085,7 @@ via = "direct"
 sha256 = "3d68e2fcab22ca2c00c79f038405ff445adc85a88a2218c17587c30aae44d337"
 words = 13889
 bytes = 2401471
-depth = "none"
+depth = "read"
 
 [[held]]
 paper = "s.liang2026-auditing-decomposing"
@@ -1095,7 +1095,7 @@ via = "direct"
 sha256 = "3b27a05ab6e2e13ec928daec424b535d141998bd272b4c77279e8837e4f61118"
 words = 9599
 bytes = 597865
-depth = "none"
+depth = "read"
 
 [[held]]
 paper = "s.li2026-escaping-self"
@@ -1115,7 +1115,7 @@ via = "direct"
 sha256 = "cbe62882e93766b027f266d44af5e818a5e163768f6a49d3b286a79759601d8f"
 words = 8016
 bytes = 525931
-depth = "none"
+depth = "read"
 
 [[held]]
 paper = "s.aphale2026-rethinking-self"
@@ -1125,7 +1125,7 @@ via = "direct"
 sha256 = "d330b1102a3daad3ff460e8db2c3c89266dd361079bd0a5f2199c7df680c3f3a"
 words = 7381
 bytes = 828068
-depth = "none"
+depth = "read"
 
 [[held]]
 paper = "s.ye2026-what-does"
@@ -1145,7 +1145,7 @@ via = "direct"
 sha256 = "8eb68923067a0f7532f197cd8d7a1f810f86ff000397cfc96385942565e95a99"
 words = 24428
 bytes = 990197
-depth = "none"
+depth = "read"
 
 [[held]]
 paper = "s.zhang2026-verifies-verifier"
@@ -1155,7 +1155,7 @@ via = "direct"
 sha256 = "268a9a0c2a9b69f51b609f6b6ec00bfe1190a41304cbb6f02e5eb578674ba925"
 words = 10772
 bytes = 470226
-depth = "none"
+depth = "read"
 
 [[held]]
 paper = "s.zhang2026-ratchet-reliable"
@@ -1185,7 +1185,7 @@ via = "direct"
 sha256 = "72c17d2a1f7e999d7ccfc93b1013fd593785bc4f602c04a2243a9d535b0c9c9b"
 words = 19266
 bytes = 4754488
-depth = "none"
+depth = "read"
 
 [[held]]
 paper = "s.prasad2025-learning-generate"
@@ -1215,7 +1215,7 @@ via = "direct"
 sha256 = "878149396d6ff3e025295192dda661d09894284d6790a4775de70eddad963f05"
 words = 14420
 bytes = 2613163
-depth = "none"
+depth = "read"
 
 [[held]]
 paper = "s.he2026-does-failure"
@@ -1771,7 +1771,7 @@ via = "direct"
 sha256 = "0572def3bfd4baaadb2041a098f12a0bac261427962e46cef084efff60fd3a36"
 words = 19529
 bytes = 1077490
-depth = "none"
+depth = "read"
 
 [[held]]
 paper = "s.lemieux2023-codamosa-escaping"
@@ -1791,7 +1791,7 @@ via = "direct"
 sha256 = "6ea15bb1992084da143b7b211cfdc465c0b9b3fb09427b8676beb2de834b426f"
 words = 5635
 bytes = 1168152
-depth = "none"
+depth = "read"
 
 [[held]]
 paper = "s.qiu2026-autorefine-compiling"
@@ -1801,7 +1801,7 @@ via = "direct"
 sha256 = "378a350034cebba7addf43cddf4ee81f9a2f7c08ec3c9d44f138c60c2a00e6db"
 words = 12590
 bytes = 826097
-depth = "none"
+depth = "read"
 
 [[held]]
 paper = "s.tang2026-when-should"
@@ -1811,7 +1811,7 @@ via = "direct"
 sha256 = "da567a4d77c59992f39ec376474ca722d4612014d49a2b1b4b918c578306fe35"
 words = 20189
 bytes = 3544570
-depth = "none"
+depth = "read"
 
 [[held]]
 paper = "s.niu2026-emma-structured"
@@ -1821,7 +1821,7 @@ via = "direct"
 sha256 = "4ca68796071aaabc2f590becdd399a632bc01f6c9816e1338c7fc5e689febc18"
 words = 11781
 bytes = 4498189
-depth = "none"
+depth = "read"
 
 [[held]]
 paper = "s.hao2026-remembering-enough"
@@ -1831,7 +1831,7 @@ via = "direct"
 sha256 = "62fefa448d4501b096ddd3c0ca526b80d08a4737ddb9c29e5e040d7ce8e13b26"
 words = 11825
 bytes = 653162
-depth = "none"
+depth = "read"
 
 [[held]]
 paper = "s.kim2026-agent-memory"
@@ -1841,7 +1841,7 @@ via = "direct"
 sha256 = "28c39e1ad1892220d7aab5b5f8bf46f2a9f35efddf15b6e9ce3a87279c8d769f"
 words = 9779
 bytes = 247621
-depth = "none"
+depth = "read"
 
 [[held]]
 paper = "s.cao2025-remember-refine"
@@ -1921,7 +1921,7 @@ via = "direct"
 sha256 = "87f7f0f323b1671e9202b3ebb1596e909e507c71ecd1b360b0075a5ee1727fe3"
 words = 13132
 bytes = 879864
-depth = "none"
+depth = "read"
 
 [[held]]
 paper = "s.alzubi2026-evoskill-automated"
@@ -1951,7 +1951,7 @@ via = "direct"
 sha256 = "a5d88b47f668f7b24f091ff817bc7fade594d09fea6c0f57e2457be37bc51ade"
 words = 10982
 bytes = 1212811
-depth = "none"
+depth = "read"
 
 [[held]]
 paper = "s.lee2026-just-trust"
@@ -1961,7 +1961,7 @@ via = "direct"
 sha256 = "0f434777c9a3220be87bbc4a5f0c9f952300a9ba55fdcf8788b37c3f525ba8cd"
 words = 21711
 bytes = 2108303
-depth = "none"
+depth = "read"
 
 [[held]]
 paper = "s.niu2026-wasp-agent"
@@ -2001,7 +2001,7 @@ via = "direct"
 sha256 = "d5fd3b36f917ecde623e89de8f1f940db3702680c642c38795398e433f19c234"
 words = 17547
 bytes = 797990
-depth = "none"
+depth = "read"
 
 [[held]]
 paper = "s.hu2026-memory-trust"
@@ -2171,7 +2171,7 @@ via = "direct"
 sha256 = "ea284fb1a8809640eb151a6667470ed412b33fd3ae8d77be4a33ca9e38608c77"
 words = 13915
 bytes = 13170763
-depth = "none"
+depth = "read"
 
 [[held]]
 paper = "s.zhou2026-memento-skills"
@@ -2703,7 +2703,7 @@ via = "direct"
 sha256 = "eb87cc30bfab6ff7ad1c6698466ffe2ce6eac4c40e128b13dc10220db643540c"
 words = 7546
 bytes = 585825
-depth = "none"
+depth = "read"
 
 [[held]]
 paper = "s.ye2026-meta-context"
@@ -2733,7 +2733,7 @@ via = "direct"
 sha256 = "0a1434ea1c9b533855c856bf49ff5271d1bcc70aa1cb3ac8f040250b5f46f372"
 words = 5997
 bytes = 2088359
-depth = "none"
+depth = "read"
 
 [[held]]
 paper = "s.zhou2026-more-convincing"
@@ -2903,7 +2903,7 @@ via = "direct"
 sha256 = "9a8002db3d04b79d2b9cb7e3bdc6bcf48595808a0514f402c18567656a2b43b7"
 words = 12713
 bytes = 1534701
-depth = "none"
+depth = "read"
 
 [[held]]
 paper = "s.nie2026-evolvenet-collaborative"
@@ -2983,7 +2983,7 @@ via = "direct"
 sha256 = "22e024954f854474819800533ba8a0371eed4688c7b7b554f97d3cd9311f3866"
 words = 10248
 bytes = 1191467
-depth = "none"
+depth = "read"
 
 [[held]]
 paper = "s.qu2026-trajectory-driven"
@@ -3193,7 +3193,7 @@ via = "direct"
 sha256 = "55b0c6339fb957435b321dff648d10ca1f49a54d3cda2c140ba46a6feddfbb9d"
 words = 21222
 bytes = 1748410
-depth = "none"
+depth = "read"
 
 [[held]]
 paper = "s.yuksekgonul2024-textgrad-automatic"
@@ -3223,7 +3223,7 @@ via = "direct"
 sha256 = "dcfbb9aa401c62949123be2d74787c4f9cca48597f18860760ef1580ddb4bc71"
 words = 18196
 bytes = 705052
-depth = "none"
+depth = "read"
 
 [[held]]
 paper = "s.cai2026-theory-reliable"
@@ -3233,7 +3233,7 @@ via = "direct"
 sha256 = "69e47cac597b569008b41c0eb67d4e4543c21fcc3c659e384adc382541e8f152"
 words = 37324
 bytes = 1028311
-depth = "none"
+depth = "read"
 
 [[held]]
 paper = "s.gan2026-harness-evolution"
@@ -3303,7 +3303,7 @@ via = "direct"
 sha256 = "606cdee79be0bf17313e811f920f364f3be1e729e50ce13f18f70b013e3552f3"
 words = 10843
 bytes = 883809
-depth = "none"
+depth = "read"
 
 [[held]]
 paper = "s.wang2026-metaskill-evolve"
@@ -3313,7 +3313,7 @@ via = "direct"
 sha256 = "ac86f0d53b5fec3d9dac98df8209310cfef9b2e4cba67935511e468c57da91fc"
 words = 8659
 bytes = 2117514
-depth = "none"
+depth = "read"
 
 [[held]]
 paper = "s.chong2026-compiling-deterministic"
@@ -3333,7 +3333,7 @@ via = "direct"
 sha256 = "01cffb28464051cc93d53000782a44ca4a54f78fc9a32500576aa71ebff84e58"
 words = 6149
 bytes = 1137966
-depth = "none"
+depth = "read"
 
 [[held]]
 paper = "s.zuppardo2026-beyond-accuracy"
@@ -3353,7 +3353,7 @@ via = "direct"
 sha256 = "5fc206ae43477775feb62eec79ecd74346ae5c245ccb9e63769e1f1bb5aa2027"
 words = 12089
 bytes = 476093
-depth = "none"
+depth = "read"
 
 [[held]]
 paper = "s.ray2026-constraint-measuring"
@@ -4043,7 +4043,7 @@ via = "page-link"
 sha256 = "9a9a7cac8dbe4e7ec0c2914e7eb2d1abf4908695755f19be30fa7095e79070ea"
 words = 10948
 bytes = 1955379
-depth = "none"
+depth = "read"
 
 [[held]]
 paper = "s.liu2025-lessons-learned"
@@ -4063,7 +4063,7 @@ via = "direct"
 sha256 = "eb34aaf8df22354f8ce2770a9152c2516c14fa53815be5b4a3f6636a65a480a4"
 words = 18240
 bytes = 2392038
-depth = "none"
+depth = "read"
 
 [[held]]
 paper = "s.na2026-dynamic-context"
@@ -4073,7 +4073,7 @@ via = "page-link"
 sha256 = "fd701dc91c420100659e067f0d81554b981b80558089d10b8906803e305e2d86"
 words = 17279
 bytes = 1928332
-depth = "none"
+depth = "read"
 
 [[held]]
 paper = "s.wunderlich2026-multi-agent"
@@ -4083,7 +4083,7 @@ via = "page-link"
 sha256 = "a9120c906a02d1ae1d7ab15a28c70ae1bfc1cb23bb8a69e3443704d247ad3078"
 words = 7964
 bytes = 486009
-depth = "none"
+depth = "read"
 
 [[held]]
 paper = "s.tran2026-single-agent"
@@ -4113,7 +4113,7 @@ via = "direct"
 sha256 = "1d8b788987d06a6337fd923995e3e8c0514cc0a3cb5e758cf9510f4d7cc9032c"
 words = 10404
 bytes = 1463076
-depth = "none"
+depth = "read"
 
 [[held]]
 paper = "s.li2025-rethinking-mixture"
@@ -4857,7 +4857,7 @@ via = "direct"
 sha256 = "fb74a30fcb6478ed29f68dfe2fe7fc7455c29c31676688dfb7fb281d4066c5fb"
 words = 7677
 bytes = 1519333
-depth = "none"
+depth = "read"
 
 [[held]]
 paper = "s.mays1990-experiences-defect"
@@ -5117,7 +5117,7 @@ via = "direct"
 sha256 = "617746e553a9e2da49bfbd4eef0dfc3094758a39b869314e4173ac36605cde22"
 words = 14259
 bytes = 739891
-depth = "none"
+depth = "read"
 
 [[held]]
 paper = "s.archunit2026-archunit-user"
@@ -5187,7 +5187,7 @@ via = "direct"
 sha256 = "a8ef39247392eb49e275768c19aca11a111c997e432225dcbcf74dfbf31abae7"
 words = 11122
 bytes = 751025
-depth = "none"
+depth = "read"
 
 [[held]]
 paper = "s.wang2026-probguard-proactive"
@@ -5427,7 +5427,7 @@ via = "direct"
 sha256 = "7d1267314a9929d73d554f8e7bdf50798dd020a1e5219aa0531c988d2706f0b0"
 words = 10236
 bytes = 396572
-depth = "none"
+depth = "read"
 
 [[held]]
 paper = "s.heander2026-codehealth-predicts"
@@ -5600,7 +5600,7 @@ via = "direct"
 sha256 = "4162e8c8e88c0cfa606a3583c20c23361a6dd82ea7daddb742641cd193255309"
 words = 8769
 bytes = 533170
-depth = "none"
+depth = "read"
 
 [[held]]
 paper = "s.zarzycki2026-what-open"
@@ -5730,7 +5730,7 @@ via = "direct"
 sha256 = "84fd4f0095bfdc3d4b640a65e0659d982dbbcc7c654824eac13c77448ed67d2a"
 words = 9188
 bytes = 793921
-depth = "none"
+depth = "read"
 
 [[held]]
 paper = "s.lulla2026-impact-agents"
@@ -5960,7 +5960,7 @@ via = "direct"
 sha256 = "c24ad38f105b18bcc6f883ff893cc8363e9504e9abc1d8e6711cc121ee08410c"
 words = 12449
 bytes = 738581
-depth = "none"
+depth = "read"
 
 [[held]]
 paper = "s.nist2025-secure-software"
@@ -6027,7 +6027,7 @@ via = "direct"
 sha256 = "a4eca51edf83f69848098757bab55216db7a5e2168c0c9e8a7346ae7963c5311"
 words = 855
 bytes = 22254
-depth = "none"
+depth = "read"
 
 [[held]]
 paper = "s.nistn.d.-oscal-implementation"
@@ -6113,7 +6113,7 @@ via = "direct"
 sha256 = "6127d2a77904a4f4627ee0067de4f291d0cf6188cadea427f29afb1b91ac95df"
 words = 757
 bytes = 39946
-depth = "none"
+depth = "read"
 
 [[held]]
 paper = "s.google2018-alerting-slos"
@@ -6376,7 +6376,7 @@ via = "direct"
 sha256 = "a3db79ec7a0e6f1461fffac5c4c84ec5a830170ae29a352d5412278d77db489f"
 words = 2909
 bytes = 234593
-depth = "none"
+depth = "read"
 
 [[held]]
 paper = "s.madatha2026-deterministic-control"
@@ -6499,7 +6499,7 @@ via = "direct"
 sha256 = "5f26903a9c1ef2745aa94329174fda8ccfcd44780a987cf031458bb43019caec"
 words = 5919
 bytes = 630136
-depth = "none"
+depth = "read"
 
 [[held]]
 paper = "s.endsley1995-loop-performance"
@@ -6509,7 +6509,12 @@ depth = "none"
 
 [[held]]
 paper = "s.onnasch2014-human-performance"
-status = "closed"
+status = "ok"
+kind = "pdf"
+via = "alternate"
+sha256 = "0efcf467e2c4359470a03969d9e44bc4e836880410f170da6518cba7e51874aa"
+words = 8723
+bytes = 157264
 note = "The address gave nothing. Tried the address, the other links the find came with, arXiv by title and the Internet Archive."
 depth = "none"
 
@@ -6688,7 +6693,7 @@ via = "direct"
 sha256 = "9e72775ed1a67ad34e4be1b37e349b718cc78d7f03944b22271e737c442288fe"
 words = 14966
 bytes = 2646073
-depth = "none"
+depth = "read"
 
 [[held]]
 paper = "s.feng2025-levels-autonomy"
@@ -6944,7 +6949,7 @@ via = "direct"
 sha256 = "e575b06ce4dd82badb2f9d2432176349083e7f1b42c78971a6cdb63ed83815ee"
 words = 9962
 bytes = 232447
-depth = "none"
+depth = "read"
 
 [[held]]
 paper = "s.hagatulah2026-cosmetic-structural"
@@ -7044,7 +7049,7 @@ via = "direct"
 sha256 = "8a21400859349c38bc30c5d8c34aa303f80cf8f4d19009003bcc4b7a0242ee77"
 words = 11163
 bytes = 1272869
-depth = "none"
+depth = "read"
 
 [[held]]
 paper = "s.mittal2026-comparing-developer"
@@ -7054,7 +7059,7 @@ via = "direct"
 sha256 = "a7e9acb4fb513e830364398613eb77db1d100b057f05f6c445bfa3693242551a"
 words = 11745
 bytes = 4481390
-depth = "none"
+depth = "read"
 
 [[held]]
 paper = "s.tong2024-codejudge-evaluating"
@@ -7084,7 +7089,7 @@ via = "direct"
 sha256 = "677edce3aa4e6de900358fbf46c2c899050df87b2e48b43a770b514f9d1a5371"
 words = 13027
 bytes = 395545
-depth = "none"
+depth = "read"
 
 [[held]]
 paper = "s.roytburg2026-evaluators-really"
@@ -7094,7 +7099,7 @@ via = "direct"
 sha256 = "ba22853e1971c61bda2ece3a1d0c7639dae97613c6eacd844cbce42bbfdb9281"
 words = 11265
 bytes = 3332958
-depth = "none"
+depth = "read"
 
 [[held]]
 paper = "s.goel2025-great-models"
@@ -7124,7 +7129,7 @@ via = "direct"
 sha256 = "1257158555afd20ec4c52e9ae37d26ee70c4448b6070f64a54592b8021d7412e"
 words = 9019
 bytes = 484742
-depth = "none"
+depth = "read"
 
 [[held]]
 paper = "s.pan2026-rubriceval-rubric"
@@ -7184,7 +7189,7 @@ via = "direct"
 sha256 = "9e95f862dd238267589877a2a2c5d0d8118bc42e8ce7846da5187b56632080d3"
 words = 7896
 bytes = 445180
-depth = "none"
+depth = "read"
 
 [[held]]
 paper = "s.dorner2024-limits-scalable"
@@ -7634,7 +7639,7 @@ via = "direct"
 sha256 = "95a21a00ffe19c29d3de12a4c40d13ac202565d9f8744c090bcb8ea6c37d9863"
 words = 20866
 bytes = 1524047
-depth = "none"
+depth = "read"
 
 [[held]]
 paper = "s.li2026-drifted-system"
@@ -8096,7 +8101,7 @@ via = "direct"
 sha256 = "131398da33d82b0031a62a2a1c688a919703ebd8f41f6bf8515a3e46678be2ee"
 words = 12599
 bytes = 467504
-depth = "none"
+depth = "read"
 
 [[held]]
 paper = "s.zhang2025-noveltybench-evaluating"
@@ -8106,7 +8111,7 @@ via = "direct"
 sha256 = "e2baf0edadeeefdb4c0f7e73d841648884c63dbcc197ad4b2371626d1db2a288"
 words = 8299
 bytes = 1305587
-depth = "none"
+depth = "read"
 
 [[held]]
 paper = "s.gumma2026-ideagent-agentic"
@@ -8116,7 +8121,7 @@ via = "direct"
 sha256 = "ee61f63cfa0a67f716a144d4df1d40ceca9ee54e0b35d3796f58bbd639aad8ca"
 words = 13906
 bytes = 1431011
-depth = "none"
+depth = "read"
 
 [[held]]
 paper = "s.antoniades2026-heuresis-search"
@@ -8156,7 +8161,7 @@ via = "direct"
 sha256 = "ee607c2533055c4f51adcf688377b29a27bf30aef427b99cf4946f936730d37d"
 words = 21005
 bytes = 4402022
-depth = "none"
+depth = "read"
 
 [[held]]
 paper = "s.jiang2025-artificial-hivemind"
@@ -8316,7 +8321,7 @@ via = "direct"
 sha256 = "e15e2d6f6619452330c7eff1bd3ae22e957a00aff361dd4f1fe2fea56e8c0469"
 words = 12421
 bytes = 343939
-depth = "none"
+depth = "read"
 
 [[held]]
 paper = "s.meincke2024-prompting-diverse"
@@ -8536,7 +8541,7 @@ via = "direct"
 sha256 = "c87966a81a9ea7d9282d9c813b98953883938f6557993e9381b9b1f29508a144"
 words = 47125
 bytes = 938088
-depth = "none"
+depth = "read"
 
 [[held]]
 paper = "s.uzunoglu2026-tracing-scientific"
@@ -8606,7 +8611,7 @@ via = "direct"
 sha256 = "90b40aee770da3dbdeb3d6f9a12d70e73361df7fdccb035bbf82ff38a6d4491e"
 words = 5955
 bytes = 775721
-depth = "none"
+depth = "read"
 
 [[held]]
 paper = "s.noorani2025-conformal-prediction"
@@ -8696,7 +8701,7 @@ via = "direct"
 sha256 = "67cf36a822e45a701735588f3087ded4c74268a3aacbafa0a593841b32f50099"
 words = 8669
 bytes = 201628
-depth = "none"
+depth = "read"
 
 [[held]]
 paper = "s.tran2017-predicting-data"
@@ -8767,7 +8772,7 @@ via = "direct"
 sha256 = "69f1e0fd2b68e1fe40e220a8cf57888f01e563221dccfa4383dd9031e419c64e"
 words = 11749
 bytes = 974015
-depth = "none"
+depth = "read"
 
 [[held]]
 paper = "s.chao1984-nonparametric-estimation"
@@ -8804,7 +8809,7 @@ via = "page-link"
 sha256 = "2e0fd49c47df5ce4a9cd98942629e50522b9d6fcd9a20aa34f984eb71d13cb4b"
 words = 10681
 bytes = 327203
-depth = "none"
+depth = "read"
 
 [[held]]
 paper = "s.mcallester2003-concentration-inequalities"
@@ -8932,7 +8937,7 @@ via = "direct"
 sha256 = "fe8182b7f5aed146b099471be5ab2e5ccdf32aae9f57443d5a1a95ffa0276c11"
 words = 15173
 bytes = 552787
-depth = "none"
+depth = "read"
 
 [[held]]
 paper = "s.wiedmann2026-agents-systems"
@@ -9159,7 +9164,7 @@ via = "direct"
 sha256 = "a033a2b3cbe325d44ab52e95faf0cea70fee7799858d6748287588d32e12c03f"
 words = 5303
 bytes = 13436632
-depth = "none"
+depth = "read"
 
 [[held]]
 paper = "s.jacovi2023-stop-uploading"
@@ -9625,7 +9630,7 @@ via = "direct"
 sha256 = "1231454f0ae5ccffdb3d031dc8f42eae0cbbaeb61dcd25dddb1855074697dfc0"
 words = 19162
 bytes = 1800192
-depth = "none"
+depth = "read"
 
 [[held]]
 paper = "s.pan2026-evolving-agents"
@@ -9635,7 +9640,7 @@ via = "direct"
 sha256 = "daab4a0bb14104e32ffe2c3bae3e8282b3e976e09dff8230713025bb5273591a"
 words = 19507
 bytes = 1020077
-depth = "none"
+depth = "read"
 
 [[held]]
 paper = "s.he2026-skillcommit-evolving"
@@ -10066,7 +10071,7 @@ via = "direct"
 sha256 = "e50fea93d5e84fffe1cdef380153d3cbd23453d5bc07339fe6524aa74f5c6aef"
 words = 9564
 bytes = 684212
-depth = "none"
+depth = "read"
 
 [[held]]
 paper = "s.v2026-frognano"
@@ -10086,7 +10091,7 @@ via = "direct"
 sha256 = "80fa5ef0ef8feb8025da244afda2b7a821d8da90dba196e4a16733e76fda201f"
 words = 10078
 bytes = 1214133
-depth = "none"
+depth = "read"
 
 [[held]]
 paper = "s.v2025-concept-distillation"
@@ -10096,7 +10101,7 @@ via = "direct"
 sha256 = "7ce622b30221d414df23ebf33f3bdfb0e8fc0a3e39f0bfc23b22e7ab7560593e"
 words = 8616
 bytes = 1832122
-depth = "none"
+depth = "read"
 
 [[held]]
 paper = "s.v2026-robust-failure"
@@ -10106,7 +10111,7 @@ via = "direct"
 sha256 = "740d3fd941b3b42224ccaf989e7a3e07b52c349ed0cd06b372580ec30e48dfc1"
 words = 9572
 bytes = 1645773
-depth = "none"
+depth = "read"
 
 [[held]]
 paper = "s.engelbart1992-toward-high"
@@ -10116,7 +10121,7 @@ via = "direct"
 sha256 = "1713dbf1a1bd9882304376e7177ef7477de8048c8d53dd121f2762a773d04573"
 words = 9960
 bytes = 70808
-depth = "none"
+depth = "read"
 
 [[held]]
 paper = "s.parasuraman2000-model-types"
