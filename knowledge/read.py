@@ -43,7 +43,7 @@ about: the thesis parts it bears on, comma separated, or none
 stance: backs | warns | refines | new
 use: one sentence on what we should do with it
 END
-(repeat FINDING ... END. Give 6 to 14 per paper. Numbers, limits, failure cases and stated assumptions come first. A paper that turns out to be off our subject gets 2 or 3 and a "what" that says so.)
+(repeat FINDING ... END. Give 6 to 14 per paper. Where a paper lists questions the reading must answer, answer each in a finding, or say in "missing" that the paper does not answer it. Numbers, limits, failure cases and stated assumptions come first. A paper that turns out to be off our subject gets 2 or 3 and a "what" that says so.)
 missing: what this paper does not tell us that the thesis needs
 === END PAPER
 
@@ -63,7 +63,8 @@ Three to six sentences: what these papers together say about the thesis part und
 '''
 
 
-def briefs(part, out, records):
+def briefs(part, out, records, questions=None):
+    asked = json.load(open(questions)) if questions else {}
     parts = [line.split('|', 1)[0].strip() for line in (HERE / 'terms.txt').read_text().splitlines() if '|' in line and not line.startswith('#')]
     if part not in parts:
         raise ValueError('unknown thesis part: ' + part)
@@ -102,6 +103,8 @@ def briefs(part, out, records):
         brief = HEAD + 'THE THESIS PART UNDER TEST: ' + part + '\n\nPAPERS TO READ\n\n'
         for pid, title, words in job:
             brief += '%s  "%s"  about %d words\n  file: %s\n' % (pid, title, words, os.path.join(LIB, pid, 'text.txt'))
+            for _, question in asked.get(pid, []):
+                brief += '  the reading must answer: %s\n' % question
         open(os.path.join(out, 'brief-%02d.txt' % n), 'w').write(brief + TAIL)
         print(n, sum(x[2] for x in job), ' '.join(x[0] for x in job))
     print(len(jobs), 'briefs,', len(items), 'papers')
@@ -152,9 +155,10 @@ if __name__ == '__main__':
     brief.add_argument('out_dir')
     brief.add_argument('--records', default=','.join(str(HERE / f) for f in ('papers.toml', 'shelf.toml') if (HERE / f).exists()))
     checker = commands.add_parser('check')
+    brief.add_argument('--questions', help='JSON of id to [[who asked, question], ...], added under each paper')
     checker.add_argument('out_dir')
     checker.add_argument('--mark', action='store_true')
     args = parser.parse_args()
     if args.mode == 'briefs':
-        sys.exit(briefs(args.part, args.out_dir, args.records))
+        sys.exit(briefs(args.part, args.out_dir, args.records, args.questions))
     sys.exit(check(args.out_dir, args.mark))
