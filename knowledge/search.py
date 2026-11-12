@@ -190,7 +190,7 @@ def document(path, records):
     title = str(title).strip()[:500]
     year = str(year) if year else None
     sha256 = hashlib.sha256(raw).hexdigest()
-    fingerprint = hashlib.sha256(json.dumps([sha256, meta, title, year],
+    fingerprint = hashlib.sha256(json.dumps([sha256, meta, title, year, source, scope],
                                            sort_keys=True).encode()).hexdigest()
     return relative, source, scope, title, year, sha256, fingerprint, text
 
