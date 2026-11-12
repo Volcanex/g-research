@@ -72,6 +72,8 @@ python3 -I knowledge/read.py briefs harness /tmp/research-reading
 python3 -I knowledge/read.py check /tmp/research-reading --mark
 python3 -I knowledge/index.py build
 python3 -I knowledge/index.py ask "What evidence supports verification loops?" --tokens 8000
+python3 -I knowledge/search.py build
+python3 -I knowledge/search.py ask "What evidence supports verification loops?" --scope library --k 10 --json
 ```
 
 `read.py briefs` uses shelf records and an optional `knowledge/papers.toml`.
@@ -90,6 +92,19 @@ data root. Ask uses local lexical retrieval with source links and no key. Its
 token budget counts bytes, conservatively, to avoid a tokenizer download. It
 selects passages rather than answering the question or reading a paper in full.
 Rebuild after library changes.
+
+`search.py` is the passage search agents should use first. It cuts every library
+`text.txt` and the working notes in the data root into 280-word passages, and
+ranks them with SQLite FTS5 and static embeddings (POTION-base-8M through
+sqlite-vec), fused two to one in favour of the lexical rank. `--scope library`
+is for primary evidence, `--scope notes` for working notes, `--source s.<id>`
+for one paper, and `--json` returns source id, title, year, path and character
+offsets for each hit. It needs the venv and cached model under `search/` in the
+data root and downloads nothing. The index stays in the data root. Builds are
+incremental, so rebuild after any change. On the development questions the
+lexical rank alone did as well as the fused one, and paraphrased questions found
+their source in the top ten seven times in ten, so a miss is not evidence of
+absence. A passage is a place to start reading and proves no claim.
 
 `neighbours.py` retains the engine's search, shared-reference count and graphics
 venue walker. The venue walker applies the thesis terms. This is not a thesis
